@@ -1,0 +1,69 @@
+[2021-11-04 16:55:58: INFO: get_data:] Started with Stage 1
+[2021-11-04 16:55:58: INFO: get_data:] Reading Parameters is Done..(from remote sources such as s3,database etc)..
+[2021-11-04 16:55:58: INFO: get_data:] Data has been successfully readed..(from remote sources such as s3,database etc)..
+[2021-11-04 16:56:20: INFO: get_data:] Started with Stage 1
+[2021-11-04 16:56:20: INFO: get_data:] Reading Parameters is Done..(from remote sources such as s3,database etc)..
+[2021-11-04 16:56:20: INFO: get_data:] Data has been successfully readed..(from remote sources such as s3,database etc)..
+[2021-11-04 16:56:21: INFO: load_data:] Load data from remote sources and then saving it in raw format...
+[2021-11-04 17:00:43: INFO: get_data:] Started with Stage 1
+[2021-11-04 17:00:43: INFO: get_data:] Reading Parameters is Done..(from remote sources such as s3,database etc)..
+[2021-11-04 17:00:43: INFO: get_data:] Data has been successfully readed..(from remote sources such as s3,database etc)..
+[2021-11-04 17:01:04: INFO: get_data:] Started with Stage 1
+[2021-11-04 17:01:04: INFO: get_data:] Reading Parameters is Done..(from remote sources such as s3,database etc)..
+[2021-11-04 17:01:05: INFO: get_data:] Data has been successfully readed..(from remote sources such as s3,database etc)..
+[2021-11-04 17:01:05: INFO: load_data:] Load data from remote sources and then saving it in raw format...
+[2021-11-09 00:46:36: INFO: get_data:] Started with Stage 1
+[2021-11-09 00:46:36: INFO: get_data:] Reading Parameters is Done..(from remote sources such as s3,database etc)..
+[2021-11-09 00:47:00: INFO: get_data:] Started with Stage 1
+[2021-11-09 00:47:00: INFO: get_data:] Reading Parameters is Done..(from remote sources such as s3,database etc)..
+[2021-11-09 00:47:00: INFO: get_data:] Data has been successfully readed..(from remote sources such as s3,database etc)..
+[2021-11-09 00:48:24: INFO: get_data:] Started with Stage 1
+[2021-11-09 00:48:24: INFO: get_data:] Reading Parameters is Done..(from remote sources such as s3,database etc)..
+[2021-11-09 00:48:24: INFO: get_data:] Data has been successfully readed..(from remote sources such as s3,database etc)..
+[2021-11-09 00:48:24: INFO: load_data:] Load data from remote sources and then saving it in raw format...
+[2021-11-16 23:28:00: INFO: get_data:] Started with Stage 1
+[2021-11-16 23:30:24: INFO: get_data:] Started with Stage 1
+[2021-11-16 23:31:28: INFO: get_data:] Started with Stage 1
+[2021-11-16 23:32:35: INFO: get_data:] Started with Stage 1
+[2021-11-16 23:33:50: INFO: get_data:] Started with Stage 1
+[2021-11-16 23:50:51: INFO: get_data:] Started with Stage 1
+[2021-11-16 23:54:02: INFO: get_data:] Started with Stage 1
+[2021-11-16 23:54:41: INFO: get_data:] Started with Stage 1
+[2021-11-16 23:56:29: INFO: get_data:] Started with Stage 1
+[2021-11-16 23:59:22: INFO: get_data:] Started with Stage 1
+[2021-11-17 00:00:02: INFO: get_data:] Started with Stage 1
+[2021-11-17 00:01:03: INFO: get_data:] Started with Stage 1
+[2021-11-17 00:01:32: INFO: get_data:] Started with Stage 1
+[2021-11-17 00:02:34: INFO: get_data:] Started with Stage 1
+[2021-11-17 00:10:23: INFO: get_data:] Started with Stage 1
+[2021-11-17 00:10:38: INFO: get_data:] Started with Stage 1
+[2021-11-17 00:13:47: INFO: get_data:] Started with Stage 1
+[2021-11-17 00:14:35: INFO: get_data:] Started with Stage 1
+[2021-11-17 00:15:10: INFO: get_data:] Started with Stage 1
+[2021-11-17 00:15:45: INFO: get_data:] Started with Stage 1
+[2021-11-17 00:16:13: INFO: get_data:] Started with Stage 1
+[2021-11-17 00:16:15: WARNING: connect_database:] Downgrading core protocol version from 66 to 65 for 9dbff798-acd6-4ea8-9ea0-636d880456fd-asia-south1.db.astra.datastax.com:29042:5a6506a9-3040-49e6-ae30-9b5de575eada. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+[2021-11-17 00:16:16: WARNING: connect_database:] Downgrading core protocol version from 65 to 5 for 9dbff798-acd6-4ea8-9ea0-636d880456fd-asia-south1.db.astra.datastax.com:29042:5a6506a9-3040-49e6-ae30-9b5de575eada. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+[2021-11-17 00:16:16: ERROR: asyncorereactor:] Closing connection <AsyncoreConnection(1773474264200) 9dbff798-acd6-4ea8-9ea0-636d880456fd-asia-south1.db.astra.datastax.com:29042:5a6506a9-3040-49e6-ae30-9b5de575eada> due to protocol error: Error from server: code=000a [Protocol error] message="Beta version of the protocol used (5/v5-beta), but USE_BETA flag is unset"
+[2021-11-17 00:16:16: WARNING: connect_database:] Downgrading core protocol version from 5 to 4 for 9dbff798-acd6-4ea8-9ea0-636d880456fd-asia-south1.db.astra.datastax.com:29042:5a6506a9-3040-49e6-ae30-9b5de575eada. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+[2021-11-17 00:16:16: INFO: policies:] Using datacenter 'asia-south1' for DCAwareRoundRobinPolicy (via host '9dbff798-acd6-4ea8-9ea0-636d880456fd-asia-south1.db.astra.datastax.com:29042:5a6506a9-3040-49e6-ae30-9b5de575eada'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+[2021-11-17 00:19:14: INFO: get_data:] Started with Stage 1
+[2021-11-17 00:20:02: INFO: get_data:] Started with Stage 1
+[2021-11-17 00:20:56: INFO: get_data:] Started with Stage 1
+[2021-11-17 00:20:57: WARNING: connect_database:] Downgrading core protocol version from 66 to 65 for 9dbff798-acd6-4ea8-9ea0-636d880456fd-asia-south1.db.astra.datastax.com:29042:05c99b1b-bd5c-4f3f-aafe-49ef2bd63a35. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+[2021-11-17 00:20:57: WARNING: connect_database:] Downgrading core protocol version from 65 to 5 for 9dbff798-acd6-4ea8-9ea0-636d880456fd-asia-south1.db.astra.datastax.com:29042:05c99b1b-bd5c-4f3f-aafe-49ef2bd63a35. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+[2021-11-17 00:20:58: ERROR: asyncorereactor:] Closing connection <AsyncoreConnection(1345746031112) 9dbff798-acd6-4ea8-9ea0-636d880456fd-asia-south1.db.astra.datastax.com:29042:05c99b1b-bd5c-4f3f-aafe-49ef2bd63a35> due to protocol error: Error from server: code=000a [Protocol error] message="Beta version of the protocol used (5/v5-beta), but USE_BETA flag is unset"
+[2021-11-17 00:20:58: WARNING: connect_database:] Downgrading core protocol version from 5 to 4 for 9dbff798-acd6-4ea8-9ea0-636d880456fd-asia-south1.db.astra.datastax.com:29042:05c99b1b-bd5c-4f3f-aafe-49ef2bd63a35. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+[2021-11-17 00:20:59: INFO: policies:] Using datacenter 'asia-south1' for DCAwareRoundRobinPolicy (via host '9dbff798-acd6-4ea8-9ea0-636d880456fd-asia-south1.db.astra.datastax.com:29042:05c99b1b-bd5c-4f3f-aafe-49ef2bd63a35'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+[2021-11-18 01:00:51: INFO: get_data:] Started with Stage 1
+[2021-11-18 01:00:55: WARNING: connect_database:] Downgrading core protocol version from 66 to 65 for 9dbff798-acd6-4ea8-9ea0-636d880456fd-asia-south1.db.astra.datastax.com:29042:9cb69eb3-6ced-4a12-be82-74ccc9d34a72. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+[2021-11-18 01:00:56: WARNING: connect_database:] Downgrading core protocol version from 65 to 5 for 9dbff798-acd6-4ea8-9ea0-636d880456fd-asia-south1.db.astra.datastax.com:29042:9cb69eb3-6ced-4a12-be82-74ccc9d34a72. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+[2021-11-18 01:00:56: ERROR: asyncorereactor:] Closing connection <AsyncoreConnection(2652225255048) 9dbff798-acd6-4ea8-9ea0-636d880456fd-asia-south1.db.astra.datastax.com:29042:9cb69eb3-6ced-4a12-be82-74ccc9d34a72> due to protocol error: Error from server: code=000a [Protocol error] message="Beta version of the protocol used (5/v5-beta), but USE_BETA flag is unset"
+[2021-11-18 01:00:56: WARNING: connect_database:] Downgrading core protocol version from 5 to 4 for 9dbff798-acd6-4ea8-9ea0-636d880456fd-asia-south1.db.astra.datastax.com:29042:9cb69eb3-6ced-4a12-be82-74ccc9d34a72. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+[2021-11-18 01:00:57: INFO: policies:] Using datacenter 'asia-south1' for DCAwareRoundRobinPolicy (via host '9dbff798-acd6-4ea8-9ea0-636d880456fd-asia-south1.db.astra.datastax.com:29042:9cb69eb3-6ced-4a12-be82-74ccc9d34a72'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+[2021-11-18 01:03:45: INFO: get_data:] Started with Stage 1
+[2021-11-18 01:03:45: WARNING: connect_database:] Downgrading core protocol version from 66 to 65 for 9dbff798-acd6-4ea8-9ea0-636d880456fd-asia-south1.db.astra.datastax.com:29042:9cb69eb3-6ced-4a12-be82-74ccc9d34a72. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+[2021-11-18 01:03:46: WARNING: connect_database:] Downgrading core protocol version from 65 to 5 for 9dbff798-acd6-4ea8-9ea0-636d880456fd-asia-south1.db.astra.datastax.com:29042:9cb69eb3-6ced-4a12-be82-74ccc9d34a72. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+[2021-11-18 01:03:46: ERROR: asyncorereactor:] Closing connection <AsyncoreConnection(1646155313928) 9dbff798-acd6-4ea8-9ea0-636d880456fd-asia-south1.db.astra.datastax.com:29042:9cb69eb3-6ced-4a12-be82-74ccc9d34a72> due to protocol error: Error from server: code=000a [Protocol error] message="Beta version of the protocol used (5/v5-beta), but USE_BETA flag is unset"
+[2021-11-18 01:03:46: WARNING: connect_database:] Downgrading core protocol version from 5 to 4 for 9dbff798-acd6-4ea8-9ea0-636d880456fd-asia-south1.db.astra.datastax.com:29042:9cb69eb3-6ced-4a12-be82-74ccc9d34a72. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+[2021-11-18 01:03:46: INFO: policies:] Using datacenter 'asia-south1' for DCAwareRoundRobinPolicy (via host '9dbff798-acd6-4ea8-9ea0-636d880456fd-asia-south1.db.astra.datastax.com:29042:9cb69eb3-6ced-4a12-be82-74ccc9d34a72'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes

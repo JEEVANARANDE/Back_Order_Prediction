@@ -1,0 +1,34 @@
+
+base:
+  project: BackOrder-project
+  random_state: 42
+  target_col: went_on_backorder
+
+cassandra_connectivity:
+  secure_connect_bundle : 'C:/Python_Lab/ineuron/internship/backorder/astra/secure-connect-ineuron.zip'
+  ASTRA_CLIENT_ID : 'RIIxKjdEAlUJurndLkiLZYLZ'
+  ASTRA_CLIENT_SECRET: 'iwnM6w2lJkBhY5+-214UeaZDHvpZaMuMmu2wXmQgQ1yZJiZODAJqJ4qAzR+l7fnJCiWl_iMIlsTW-AZBmS9ChmM_QnW+rKv7oSXNci,F9NMGTi+dbJeXj.Gkj6xnJzuY'
+
+data_sources:
+  cassandra_DB_Name : 'project'
+  cassandra_Table_Name : '"data_BackOrder"'
+  query : "SELECT national_inv, lead_time, sales_1_month, pieces_past_due, perf_6_month_avg,\
+            local_bo_qty, deck_risk, oe_constraint,ppap_risk,stop_auto_buy, rev_stop FROM {0};"
+  cassandra_to_local_path: data_given/data_BackOrder_cassandra.csv
+
+#data_source: 
+ # s3_sources: data_given/data_BackOrder.csv
+
+load_data:
+  raw_dataset_csv: data/raw/data_BackOrder.csv
+
+
+split_data:
+  train_path: data/processed/train_Dataset.csv
+  test_path: data/processed/test_Dataset.csv
+  test_size: 0.2
+
+
+
+  #querys= f"SELECT national_inv, lead_time, sales_1_month, pieces_past_due, perf_6_month_avg,\
+    #          local_bo_qty, deck_risk, oe_constraint,ppap_risk,stop_auto_buy, rev_stop FROM {names};"

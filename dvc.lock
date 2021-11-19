@@ -1,0 +1,18 @@
+schema: '2.0'
+stages:
+  load_data:
+    cmd: python src/load_data.py --config=params.yaml
+    deps:
+    - path: data_given/BackOrder_cassandra.csv
+      md5: 6dd406cbb26ee5ff91b5e5edbbec747b
+      size: 632369
+    - path: src/get_data.py
+      md5: a0607a34fc1e808d67cbaac9ee242760
+      size: 1849
+    - path: src/load_data.py
+      md5: 1ada116c69d259d49a92eb8e6c417877
+      size: 1588
+    outs:
+    - path: data/raw/BackOrder_data.csv
+      md5: 6dd406cbb26ee5ff91b5e5edbbec747b
+      size: 632369

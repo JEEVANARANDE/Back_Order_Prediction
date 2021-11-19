@@ -1,0 +1,7 @@
+2021-11-20/01:33:08		Load data from remote sources and then saving it in data/raw folder
+2021-11-20/01:52:18		Load data from remote sources and then saving it in data/raw folder
+2021-11-20/02:05:24		Load data from remote sources and then saving it in data/raw folder
+2021-11-20/02:09:53		Load data from remote sources and then saving it in data/raw folder
+2021-11-20/02:11:00		Load data from remote sources and then saving it in data/raw folder
+2021-11-20/02:11:20		Load data from remote sources and then saving it in data/raw folder
+2021-11-20/02:11:52		Load data from remote sources and then saving it in data/raw folder

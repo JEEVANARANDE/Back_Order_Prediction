@@ -14,13 +14,13 @@ data_sources:
   cassandra_Table_Name : '"data_BackOrder"'
   query : "SELECT national_inv, lead_time, sales_1_month, pieces_past_due, perf_6_month_avg,\
             local_bo_qty, deck_risk, oe_constraint,ppap_risk,stop_auto_buy, rev_stop FROM {0};"
-  cassandra_to_local_path: data_given/data_BackOrder_cassandra.csv
+  cassandra_to_local_path: data_given/BackOrder_cassandra.csv
 
 #data_source: 
  # s3_sources: data_given/data_BackOrder.csv
 
 load_data:
-  raw_dataset_csv: data/raw/data_BackOrder.csv
+  raw_dataset_csv: data/raw/BackOrder_data.csv
 
 
 split_data:

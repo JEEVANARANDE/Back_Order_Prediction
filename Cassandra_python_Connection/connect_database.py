@@ -1,6 +1,7 @@
+
 import sys
-sys.path.append(r'C:\Python_Lab\ineuron\internship\backorder\BackOrder_Prediction\App_logging')
-sys.path.append(r'C:\Python_Lab\ineuron\internship\backorder\BackOrder_Prediction\src')
+sys.path.append(r'C:\Python_Lab\ineuron\internship\backorder\Back_Order_Prediction\App_logging')
+sys.path.append(r'C:\Python_Lab\ineuron\internship\backorder\Back_Order_Prediction\src')
 import os
 from cassandra.cluster import Cluster
 from cassandra.auth import PlainTextAuthProvider
@@ -54,11 +55,11 @@ class connect_db:
         log_file.close()
         return df
 
-"""
+
 if __name__ == '__main__':
     args = argparse.ArgumentParser()
     args.add_argument("--config",default="params.yaml")
     parsed_args = args.parse_args()
     connect_db().casandra_to_local_get_data(config_path=parsed_args.config)
 
-"""
+

@@ -2,9 +2,9 @@
 #save it into data/raw for further process
 
 import sys
-sys.path.append(r'C:\Python_Lab\ineuron\internship\backorder\BackOrder_Prediction\App_logging')
-sys.path.append(r'C:\Python_Lab\ineuron\internship\backorder\BackOrder_Prediction\python_project')
-sys.path.append(r'C:\Python_Lab\ineuron\internship\backorder\BackOrder_Prediction\src')
+sys.path.append(r'C:\Python_Lab\ineuron\internship\backorder\Back_Order_Prediction\App_logging')
+sys.path.append(r'C:\Python_Lab\ineuron\internship\backorder\Back_Order_Prediction\Cassandra_python_Connection')
+sys.path.append(r'C:\Python_Lab\ineuron\internship\backorder\Back_Order_Prediction\src')
 import os
 import argparse
 from logger import App_logger
@@ -21,8 +21,8 @@ class Load_data:
     def load_and_save(self,config_path):
         config = self.database.read_params(config_path)
         log_file = open("Cassandra_Logs/saving_data_to_rawformatFolder_Log.txt", 'a+')
-        #df = self.fetched_data.get_data(config_path)
-        df = self.database.casandra_to_local_get_data(config_path)
+        df = self.fetched_data.get_data(config_path)
+        #df = self.database.casandra_to_local_get_data(config_path)
         raw_data_path = config["load_data"]["raw_dataset_csv"]
         df.to_csv(raw_data_path,sep=",",index=False)
         self.logger.log(log_file,"Load data from remote sources and then saving it in data/raw folder")

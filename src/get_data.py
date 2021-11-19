@@ -22,18 +22,19 @@ class Get_data:
         self.logger.log(log_file,"Started getting data from given folder...")
         data_path = config["data_sources"]["cassandra_to_local_path"]
         df = pd.read_csv(data_path,sep=",",encoding='utf-8',low_memory=False)
+        
         self.logger.log(log_file,"Data has been successfully readed from the given folder.")
         log_file.close()
         return df
     
-"""
+
 if __name__ == '__main__':
     args = argparse.ArgumentParser()
     args.add_argument("--config",default="params.yaml")
     parsed_args = args.parse_args()
     #connect_db().casandra_to_local_data(config_path=parsed_args.config)
     Get_data().get_data(config_path= parsed_args.config)
-"""
+
 
 """
 logging_str = "[%(asctime)s: %(levelname)s: %(module)s:] %(message)s"
